@@ -12,6 +12,7 @@
 		A4E584AD22165BC7008F51E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E584AB22165BC7008F51E3 /* Main.storyboard */; };
 		A4E584AF22165BC8008F51E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E584AE22165BC8008F51E3 /* Assets.xcassets */; };
 		A4E584B222165BC8008F51E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E584B022165BC8008F51E3 /* LaunchScreen.storyboard */; };
+		A4E584BA2217C115008F51E3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E584B92217C115008F51E3 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4E584AE22165BC8008F51E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E584B122165BC8008F51E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4E584B322165BC8008F51E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E584B92217C115008F51E3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A4E584A722165BC7008F51E3 /* AppDelegate.swift */,
 				A4E584A922165BC7008F51E3 /* ViewController.swift */,
 				A4E584AB22165BC7008F51E3 /* Main.storyboard */,
+				A4E584B92217C115008F51E3 /* Game.swift */,
 				A4E584AE22165BC8008F51E3 /* Assets.xcassets */,
 				A4E584B022165BC8008F51E3 /* LaunchScreen.storyboard */,
 				A4E584B322165BC8008F51E3 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E584AA22165BC7008F51E3 /* ViewController.swift in Sources */,
+				A4E584BA2217C115008F51E3 /* Game.swift in Sources */,
 				A4E584A822165BC7008F51E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.buffyfeinstein.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.buffyfeinstein.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
