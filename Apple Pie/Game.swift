@@ -9,9 +9,13 @@
 import Foundation
 
 struct Game {
+    
+    //manages how many moves are remaining and adds a collection of characters(guessedLetters) and keeps track of selected letters.
     var word: String
     var incorrectMovesRemaining: Int
     var guessedLetters: [Character]
+    //formattedWord - if the character is in guessedLetters, convert it to a string, then append the letter onto the variable, otherwise append _ onto variable
+ 
     var formattedWord: String {
         var guessedWord = ""
         for letter in word {
