@@ -1,5 +1,7 @@
 # Apple-Pie
 
+ ![myimage-alt-tag](https://github.com/buffyf/Apple-Pie/blob/master/Screen%20Shot%202019-02-19%20at%206.33.12%20PM.png)
+
 ### About: 
 ##### A word-guessing app
 
